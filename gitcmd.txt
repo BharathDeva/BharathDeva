@@ -1,0 +1,17 @@
+git config --global user.name "bobby"
+
+  git config --global user.mail "XXX@XXX.com"
+
+git config --global -e
+
+ git config --list
+
+-- to create alias 
+
+vi .bash_profile
+
+            alias npp="notepad++.exe"
+
+            alias status="git status"
+
+--  now we use 'npp' to open Notepad++ and to check the status 'status' cmd .
