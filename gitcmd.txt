@@ -15,3 +15,14 @@ vi .bash_profile
             alias status="git status"
 
 --  now we use 'npp' to open Notepad++ and to check the status 'status' cmd .
+
+$ git clone https://github.com/BharathDeva/BharathDeva.git
+$ git pull
+$ git branch
+* Branch1
+  master
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
