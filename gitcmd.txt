@@ -26,6 +26,7 @@ $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
+
 Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
 $ git push origin Branch1
 Logon failed, use ctrl+c to cancel basic credential prompt.
@@ -76,11 +77,5 @@ To https://github.com/BharathDeva/BharathDeva.git
    2c8a2fd..9274d7d  master -> master
 
 Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
-
-
-
-
-
-
 
 
