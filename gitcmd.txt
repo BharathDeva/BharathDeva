@@ -26,3 +26,54 @@ $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
+$ git push origin Branch1
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 456 bytes | 456.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BharathDeva/BharathDeva.git
+   2c8a2fd..9274d7d  Branch1 -> Branch1
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
+$ git pull
+Already up to date.
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
+$ git branch
+* Branch1
+  master
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (Branch1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
+$ git pull
+Already up to date.
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
+$ git merge Branch1
+Updating 2c8a2fd..9274d7d
+Fast-forward
+ gitcmd.txt | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
+$ git pull
+Already up to date.
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/BharathDeva/BharathDeva.git
+   2c8a2fd..9274d7d  master -> master
+
+Bharath@Bharath-PC MINGW64 ~/GITall/BharathDeva (master)
+
